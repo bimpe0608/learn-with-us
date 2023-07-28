@@ -1,8 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
+import PageMainContainer from "./Containers/PageMainContainer/PageMainContainer";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <PageMainContainer />
+    </>
+  );
 }
 
 export default App;
