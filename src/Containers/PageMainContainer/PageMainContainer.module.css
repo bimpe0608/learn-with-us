@@ -1,0 +1,40 @@
+.PageMainContainer {
+  margin: 0;
+}
+
+.upperSection {
+  background: #f2f3f8;
+}
+
+.textContent {
+  border: 3px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContent > div {
+  border: 3px solid green;
+  width: 60%;
+  padding: 4rem 0 14rem 0;
+}
+
+.textContent h3 {
+  color: #1a1a1a;
+  font-family: "Gilroy";
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 74px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.textContent p {
+  color: #303030;
+  font-family: "Gilroy";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 0px;
+}
