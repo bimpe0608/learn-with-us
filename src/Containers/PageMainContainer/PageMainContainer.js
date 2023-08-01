@@ -1,5 +1,6 @@
 import classes from "./PageMainContainer.module.css";
 import AvailableCourses from "../../Components/AvailableCourses/AvailableCourses";
+import Button from "../../Components/Buttons/Buttons";
 
 const PageMainContainer = () => {
   return (
@@ -30,13 +31,46 @@ const PageMainContainer = () => {
                 tools. Gain hands-on experience and develop a robust foundation
                 that will set you apart in the competitive market.
               </p>
-              <button>Register Now</button>
+              <Button />
             </div>
           </div>
         </AvailableCourses>
 
-        <AvailableCourses></AvailableCourses>
-        <AvailableCourses></AvailableCourses>
+        <AvailableCourses>
+          <div className={classes.productDesignSection}>
+            <div>
+              <h3>Learn Product Design</h3>
+              <p>
+                With our expert-led courses, you'll gain invaluable insights
+                into the fundamentals of design thinking, user-centric
+                approaches, and the latest industry trends. Through hands-on
+                projects and real-world simulations, you'll develop the skills
+                to ideate, prototype, and bring your ideas to life.
+              </p>
+              <Button />
+            </div>
+            <div>
+              <img src="https://res.cloudinary.com/drybwe5na/image/upload/v1690556105/Assets/WhatsApp_Image_2023-06-16_at_11.57_5_rkzvfp.svg" />
+            </div>
+          </div>
+        </AvailableCourses>
+        <AvailableCourses>
+          <div className={classes.dataAnalysisSection}>
+            <div>
+              <img src="https://res.cloudinary.com/drybwe5na/image/upload/v1690556102/Assets/WhatsApp_Image_2023-06-16_at_11.57_4_zsgece.svg" />
+            </div>
+            <div>
+              <h3>Learn Intermediate Level Data Analysis with Python</h3>
+              <p>
+                Dive into real-world data sets and learn how to apply Python
+                libraries such as Pandas, NumPy, and Matplotlib to analyze and
+                interpret data effectively. Gain practical experience through
+                interactive exercises and projects.
+              </p>
+              <Button />
+            </div>
+          </div>
+        </AvailableCourses>
       </div>
     </div>
   );
