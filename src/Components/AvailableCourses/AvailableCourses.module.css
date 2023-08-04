@@ -3,6 +3,12 @@
   padding: 1.5rem;
   border-radius: 20px;
   background: #f2f3f8;
-  margin-bottom: 4rem;
-  width: 90%;
+  margin-bottom: 3rem;
+  width: 98%;
+}
+
+@media screen and (max-width: 767px) {
+  .availableCourseContainer {
+    margin-bottom: 2rem;
+  }
 }
