@@ -3,14 +3,12 @@
 }
 
 .upperSection {
-  /* border: 4px solid orange; */
   background: #f2f3f8;
   position: relative;
   z-index: 0;
 }
 
 .textContent {
-  /* border: 3px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +41,6 @@
 }
 
 .courseContainer {
-  /* border: 3px solid purple; */
   background-color: #fff;
   box-shadow: 2.3008129596710205px 11.504064559936523px 23.008129119873047px
     1.1504064798355103px rgba(221, 227, 255, 0.45);
@@ -66,7 +63,6 @@
 .frontendSection,
 .productDesignSection,
 .dataAnalysisSection {
-  /* border: 3px solid red; */
   margin: 0;
   padding-top: 0.45rem;
   display: flex;
@@ -76,9 +72,13 @@
 }
 
 .frontendImage,
-.productDesignText,
 .dataAnalysisImage {
-  border: 3px solid green;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.productDesignImage {
   width: 40%;
   margin: 0;
   padding: 0;
@@ -95,14 +95,9 @@
   height: 100%;
 }
 
-.productDesignImage {
-  order: 1;
-  /* color: 3px solid yellow; */
-}
-
 .frontendText,
 .dataAnalysisText {
-  border: 3px solid greenyellow;
+  /* border: 3px solid greenyellow; */
   width: 60%;
 }
 
@@ -172,14 +167,13 @@
   }
 
   .frontendImage,
-  .productDesignText,
   .dataAnalysisImage {
     width: 100%;
   }
 
   .productDesignImage {
     order: -1;
-    /* color: 3px solid yellow; */
+    width: 100%;
   }
 
   .frontendText,
@@ -188,7 +182,6 @@
   }
 
   .productDesignText {
-    border: 3px solid pink;
     width: 100%;
     padding-left: 0rem;
   }
@@ -210,4 +203,28 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .PageMainContainer {
+    width: 100%;
+  }
+
+  .textContent > div {
+    width: 71%;
+    padding: 3rem 0 9rem 0;
+  }
+
+  .courseContainer {
+    width: 71%;
+    top: 22rem;
+  }
+
+  .frontendSection,
+  .dataAnalysisSection,
+  .productDesignSection {
+    gap: 1.2rem;
+  }
+
+  .productDesignText {
+    width: 60%;
+    padding-left: 0rem;
+  }
 }
